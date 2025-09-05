@@ -17,13 +17,13 @@
 
 ### Opção 1 compilar: Script automático
 
-.\compilar.bat
-java -cp "bin;lib/mysql-connector-j-9.4.0.jar" view.LoginFrame
+`.\compilar.bat`
+`java -cp "bin;lib/mysql-connector-j-9.4.0.jar" view.LoginFrame`
 
 ### Opção 2 compilar: Manual
 
-javac -cp ".;lib/mysql-connector-j-9.4.0.jar" -d bin src/_.java src/model/_.java src/dao/_.java src/util/_.java src/view/\*.java
-java -cp "bin;lib/mysql-connector-j-9.4.0.jar" view.LoginFrame
+`javac -cp ".;lib/mysql-connector-j-9.4.0.jar" -d bin src/_.java src/model/_.java src/dao/_.java src/util/_.java src/view/\*.java`
+`java -cp "bin;lib/mysql-connector-j-9.4.0.jar" view.LoginFrame`
 
 ## Tecnologias
 
